@@ -1,0 +1,13 @@
+venv/
+.env
+data/*
+*.csv
+*.csv.gz
+!data/processed/cleaned_listings.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/*
+*.pkl
+*.joblib
+!models/best_lgbm_model.pkl
